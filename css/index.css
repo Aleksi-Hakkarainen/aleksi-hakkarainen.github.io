@@ -4,16 +4,14 @@
     padding-top: 200px;
     padding-bottom: 200px;
 
-    background-color: rgb(34, 34, 255);
+    background-color: rgb(255, 255, 255);
 
     button {
         padding: 5px;
         border-radius: 1;
-        border-color: rgb(0, 0, 0);
-        border-width: 2px;
-        color: rgb(0, 0, 0);
-        background: white;
-        border-style: solid;
+        color: rgb(255, 255, 255);
+        background: rgb(34, 34, 255);
+        border-style: none;
     }
 
     img {
