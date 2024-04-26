@@ -4,6 +4,10 @@ header {
     padding-top: 20px;
     padding-bottom: 20px;
 
+    .center-logo {
+        text-align: center;
+    }
+
     .fiix-it-logo {
         img {
             width: 15vw;
