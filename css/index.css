@@ -30,5 +30,6 @@
 
   .blue-color {
     color: rgb(34, 34, 255);
+    display: inline;
   }
 }
