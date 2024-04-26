@@ -14,6 +14,11 @@
         background: white;
         border-style: solid;
     }
+
+    img {
+        width: 15vw;
+        height: auto;
+    }
 }
 
 .nav-item-align-center {
