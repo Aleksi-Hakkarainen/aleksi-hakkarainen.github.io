@@ -1,14 +1,6 @@
-.fixit-it-logo {
-    img {
-        width: 1vw;
-        height: auto;
-    }
-}
-
 header {
     padding-left: 1vw;
     padding-right: 1vw;
     padding-top: 1vh;
     padding-bottom: 1vh;
-    height: 3vh;
 }
