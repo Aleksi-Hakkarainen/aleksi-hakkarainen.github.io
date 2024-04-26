@@ -1,0 +1,36 @@
+body {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+
+    width: 100%;
+    display: flex;
+
+    h1 {
+        font-size: 8vw;
+    }    
+
+    h2 {
+        font-size: 7vw;
+    }
+
+    h3 {
+        font-size: 6vw;
+    }
+
+    h4 {
+        font-size: 5vw;
+    }
+
+    h5 {
+        font-size: 4vw;
+    }
+
+    h6 {
+        font-size: 3vw;
+    }
+
+    p {
+        font-size: 2vw;
+    }
+}
