@@ -30,6 +30,9 @@
     align-items: center;
     justify-content: center;
     padding: 10px;
+
+    background: rgb(34, 34, 255);
+    border-radius: 75px;
 }
 
 a {
