@@ -6,41 +6,4 @@
 
     background-color: rgb(255, 255, 255);
 
-    button {
-        padding: 5px;
-        border-radius: 1;
-        color: rgb(255, 255, 255);
-        background: rgb(34, 34, 255);
-        border-radius: 75px;
-        border-style: none;
-        width: 3vw;
-
-        text-decoration: none;
-    }
-
-    img {
-        width: 15vw;
-        height: auto;
-        padding: 5px;
-    }
-}
-
-.nav-item-align-center {
-    text-align: center;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
-
-    background: rgb(34, 34, 255);
-    border-radius: 75px;
-
-    text-decoration: none;
-    color: white;
-}
-
-a {
-  text-decoration: none;
-  color: white;
 }
