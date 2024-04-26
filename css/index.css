@@ -9,7 +9,7 @@
 
 .herophoto {
   background-image: url("../img/bg.jpg");
-  background-size: contain;
+  background-size: cover;
   display: flex;
   background-repeat: no-repeat;
   overflow: hidden;
