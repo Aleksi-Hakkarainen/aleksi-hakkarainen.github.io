@@ -15,3 +15,9 @@
         border-style: solid;
     }
 }
+
+.nav-item-align-center {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
