@@ -11,5 +11,7 @@
         border-radius: 1;
         border-color: rgb(255, 255, 255);
         color: white;
+        background: none;
+        border-style: solid;
     }
 }
