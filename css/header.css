@@ -1,12 +1,12 @@
 header {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
 
     .fiix-it-logo {
         img {
-            width: 3vw;
+            width: 15vw;
             height: auto;
         }
     }
