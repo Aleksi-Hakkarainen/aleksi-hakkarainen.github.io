@@ -32,3 +32,10 @@
     color: rgb(34, 34, 255);
   }
 }
+
+.center-elements {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
