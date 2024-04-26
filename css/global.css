@@ -55,3 +55,8 @@ body {
     }
 
 }
+
+.spacer {
+    width: 100%;
+    height: 3vh;
+}
