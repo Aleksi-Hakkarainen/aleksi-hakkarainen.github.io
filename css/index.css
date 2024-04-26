@@ -9,9 +9,9 @@
     button {
         padding: 5px;
         border-radius: 1;
-        border-color: rgb(255, 255, 255);
-        color: white;
-        background: none;
+        border-color: rgb(0, 0, 0);
+        color: rgb(0, 0, 0);
+        background: white;
         border-style: solid;
     }
 }
