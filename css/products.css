@@ -1,0 +1,220 @@
+.carousel-container {
+    margin: 5%;
+    text-align: center;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+  
+.gallery-cell {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: block;
+
+    a {
+      text-decoration: none;
+      color: black;
+    }
+
+    a:hover {
+      color: rgb(34, 34, 255);
+    }
+
+    img {
+      width: 80vw;
+      height: 40vw;
+    }
+    
+    counter-increment: gallery-cell;
+}
+
+.divider {
+  margin: 5%;
+}
+
+.product-selector {
+  margin: 5%;
+  height: fit-content;
+  display: flex;
+  background-color: rgb(34, 34, 255);
+  color: white;
+
+  form {
+    margin: 5%;
+
+    imput {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+  }
+
+  h6 {
+    width: 100%;
+  }
+
+}
+
+.product-listings {
+  text-align: center;
+
+  .products-racks-active {
+    margin: 5%;
+
+    a {
+      text-decoration: none;
+      color: black;
+    }
+
+    .product {
+      width: auto;
+      display: inline-block;
+      text-align: center;
+
+      border-style: solid;
+      border-width: 1px;
+
+      margin-left: 2%;
+      margin-right: 2%;
+
+      img {
+        width: 10vw;
+      }
+    }
+  }
+
+  .products-security-active {
+    margin: 5%;
+
+    a {
+      text-decoration: none;
+      color: black;
+    }
+
+    .product {
+      width: auto;
+      display: inline-block;
+      text-align: center;
+
+      border-style: solid;
+      border-width: 1px;
+
+      margin-left: 2%;
+      margin-right: 2%;
+
+      img {
+        width: 10vw;
+      }
+    }
+  }
+
+  .products-switches-active {
+    margin: 5%;
+
+    a {
+      text-decoration: none;
+      color: black;
+    }
+
+    .product {
+      width: auto;
+      display: inline-block;
+      text-align: center;
+
+      border-style: solid;
+      border-width: 1px;
+
+      margin-left: 2%;
+      margin-right: 2%;
+
+      img {
+        width: 10vw;
+      }
+    }
+  }
+
+  .products-access-points-active {
+    margin: 5%;
+
+    a {
+      text-decoration: none;
+      color: black;
+    }
+
+    .product {
+      width: auto;
+      display: inline-block;
+      text-align: center;
+
+      border-style: solid;
+      border-width: 1px;
+
+      margin-left: 2%;
+      margin-right: 2%;
+
+      img {
+        width: 10vw;
+      }
+    }
+  }
+
+  .products-routers-active {
+    margin: 5%;
+
+    a {
+      text-decoration: none;
+      color: black;
+    }
+
+    .product {
+      width: auto;
+      display: inline-block;
+      text-align: center;
+
+      border-style: solid;
+      border-width: 1px;
+
+      margin-left: 2%;
+      margin-right: 2%;
+
+      img {
+        width: 10vw;
+      }
+    }
+  }
+
+  .products-cabling-active {
+    margin: 5%;
+
+    a {
+      text-decoration: none;
+      color: black;
+    }
+
+    .product {
+      width: auto;
+      display: inline-block;
+      text-align: center;
+
+      border-style: solid;
+      border-width: 1px;
+
+      margin-left: 2%;
+      margin-right: 2%;
+
+      img {
+        width: 10vw;
+      }
+    }
+  }
+
+
+  .products-racks, .products-security, .products-switches, .products-access-points, .products-routers, .products-cabling {
+    display: none;
+  }
+}

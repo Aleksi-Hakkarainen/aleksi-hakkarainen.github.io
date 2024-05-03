@@ -1,0 +1,23 @@
+footer {
+    padding-top: 20px;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(34, 34, 255);
+    display: flex;
+
+    .footer-col-1 {
+        width: 33%;
+        position: relative;
+    }
+    .footer-col-2 {
+        width: 33%;
+    }
+    .footer-col-3 {
+        width: 33%;
+    }
+}
+
+.sub-footer {
+    margin: 5%;
+}
