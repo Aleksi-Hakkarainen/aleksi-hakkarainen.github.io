@@ -1,0 +1,11 @@
+.about-us {
+
+    .ceo-photo {
+        background-image: url("../img/ceo.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 96%;
+        width: 100%;
+    }
+}
+

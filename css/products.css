@@ -1,0 +1,293 @@
+.carousel-container {
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 12.5vh;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-image: url("../img/products-bg-2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+    h6, p {
+      text-align: center;
+      background-color: white;
+      padding: 5%;
+    }
+}
+
+.divider {
+  margin: 5%;
+}
+
+.product-selector {
+  margin: 5%;
+  height: fit-content;
+  display: flex;
+  background-color: #4361EE;
+  color: white;
+
+  form {
+    margin: 5%;
+
+    imput {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+  }
+
+  h6 {
+    width: 100%;
+  }
+
+}
+
+.product-listings {
+  text-align: center;
+
+  .products-racks-active {
+    margin: 5%;
+
+    .product-background {
+      background-color: #4CC9F0;
+      padding: 2%;
+      margin: 2%;
+      width: fit-content;
+      border-radius: 10px;
+      color:black;
+      display: inline-block;
+
+      a {
+        color: black;
+        text-decoration: none;
+      }
+
+      img {
+        width: 10vw;
+      }
+    }
+
+    .product-background:hover {
+      background-color: #F72585;
+      color:rgb(255, 255, 255);
+      transition: 0.15s;
+
+      a {
+        color: rgb(255, 255, 255);
+        transition: 0.15s;
+      } 
+    }
+  }
+
+  .products-security-active {
+    margin: 5%;
+
+    .product-background {
+      background-color: #4CC9F0;
+      padding: 2%;
+      margin: 2%;
+      width: fit-content;
+      border-radius: 10px;
+      color:black;
+      display: inline-block;
+
+      a {
+        color: black;
+        text-decoration: none;
+      }
+
+      img {
+        width: 10vw;
+      }
+    }
+
+    .product-background:hover {
+      background-color: #F72585;
+      color:rgb(255, 255, 255);
+      transition: 0.15s;
+
+      a {
+        color: rgb(255, 255, 255);
+        transition: 0.15s;
+      } 
+    }
+  }
+
+  .products-switches-active {
+    margin: 5%;
+
+    .product-background {
+      background-color: #4CC9F0;
+      padding: 2%;
+      margin: 2%;
+      width: fit-content;
+      border-radius: 10px;
+      color:black;
+      display: inline-block;
+
+      a {
+        color: black;
+        text-decoration: none;
+      }
+
+      img {
+        width: 10vw;
+      }
+    }
+
+    .product-background:hover {
+      background-color: #F72585;
+      color:rgb(255, 255, 255);
+      transition: 0.15s;
+
+      a {
+        color: rgb(255, 255, 255);
+        transition: 0.15s;
+      } 
+    }
+  }
+
+  .products-access-points-active {
+    margin: 5%;
+
+    .product-background {
+      background-color: #4CC9F0;
+      padding: 2%;
+      margin: 2%;
+      width: fit-content;
+      border-radius: 10px;
+      color:black;
+      display: inline-block;
+
+      a {
+        color: black;
+        text-decoration: none;
+      }
+
+      img {
+        width: 10vw;
+      }
+    }
+
+    .product-background:hover {
+      background-color: #F72585;
+      color:rgb(255, 255, 255);
+      transition: 0.15s;
+
+      a {
+        color: rgb(255, 255, 255);
+        transition: 0.15s;
+      } 
+    }
+  }
+
+  .products-routers-active {
+    margin: 5%;
+
+    .product-background {
+      background-color: #4CC9F0;
+      padding: 2%;
+      margin: 2%;
+      width: fit-content;
+      border-radius: 10px;
+      color:black;
+      display: inline-block;
+
+      a {
+        color: black;
+        text-decoration: none;
+      }
+
+      img {
+        width: 10vw;
+      }
+    }
+
+    .product-background:hover {
+      background-color: #F72585;
+      color:rgb(255, 255, 255);
+      transition: 0.15s;
+
+      a {
+        color: rgb(255, 255, 255);
+        transition: 0.15s;
+      } 
+    }
+  }
+
+  .products-cabling-active {
+    margin: 5%;
+
+    .product-background {
+      background-color: #4CC9F0;
+      padding: 2%;
+      margin: 2%;
+      width: fit-content;
+      border-radius: 10px;
+      color:black;
+      display: inline-block;
+
+      a {
+        color: black;
+        text-decoration: none;
+      }
+
+      img {
+        width: 10vw;
+      }
+    }
+
+    .product-background:hover {
+      background-color: #F72585;
+      color:rgb(255, 255, 255);
+      transition: 0.15s;
+
+      a {
+        color: rgb(255, 255, 255);
+        transition: 0.15s;
+      } 
+    }
+  }
+
+
+  .products-racks, .products-security, .products-switches, .products-access-points, .products-routers, .products-cabling {
+    display: none;
+  }
+}
+
+.request-product {
+  margin: 5%;
+
+  .form-container {
+    background-color: #4361EE;
+    color: white;
+    padding: 5%;
+
+    input {
+      min-height: 5vh;
+      width: 100%;
+      margin: 1%;
+      border: none;
+    }
+
+    ::placeholder {
+      color: black;
+    }
+
+    .submit-button {
+      margin: 1%;
+      min-height: 5vh;
+      text-align: center;
+      background-color: white;
+      border: none;
+      width: 100%;
+    }
+
+    .submit-button:hover {
+      background-color: #F72585;
+      color: white;
+      transition: 0.15s;
+    }
+  }
+}

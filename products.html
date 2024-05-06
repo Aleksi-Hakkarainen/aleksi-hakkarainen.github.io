@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--Links-->
+        <!--Css-->
+        <link rel="stylesheet" href="css/products.css">
+        <link rel="stylesheet" href="css/global.css">
+        <link rel="stylesheet" href="css/header.css">
+        <link rel="stylesheet" href="css/footer.css">
+
+        <!--Flickity-->
+        <link rel="stylesheet" href="css/flickity.css">
+
+        <!--Bootstrap-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+        <!--Google custom font - Oswald-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+        <title>Fiix-IT</title>
+</head>
+    <body>
+        <!--Bootstrap JS script bundle and flickity-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <script src="flickity.pkgd.js"></script>
+
+        <!--Header-->
+        <header>
+            <img src="../img/fiix-it-logo-removebg-preview.png" class="fiix-it-logo center-logo">
+        </header>
+
+        <!--"Back to home" -button-->
+        <div class="back-button">
+            <a href="index.html">
+                <p>
+                    Takaisin
+                </p>
+            </a>
+        </div>
+
+        <!--Hero-photo product section-->
+        <div class="carousel-container">    
+            <p>
+                <b>Tuoteperheemme</b><br><br> Ubiquiti - Palo Alto - Fortinet - Cisco - Aruba - Juniper Networks - HP Enterprise - APC - <br>Digitus - Deltaco - Samson - TP-link - D-link - HKVision - Epson - Canon - Teltonika
+            </p>
+        </div>
+
+        <!--Divider line-->
+        <div class="divider">
+            <hr>
+        </div>
+
+        <!--Product category selector-->
+        <div class="product-selector">
+            <form>
+                
+                <h6>Rajaa hakuasi</h6>
+                
+                <input type="checkbox" class="Rakit" id="Rakit" name="Rakit" value="Rakit">
+                <label for="Rakit">Rakit</label>
+                
+                <input type="checkbox" class="Security" id="Verkkoturvallisuus" name="Verkkoturvallisuus" value="Verkkoturvallisuus">
+                <label for="Verkkoturvallisuus">Verkkoturvallisuus</label>
+
+                <input type="checkbox" class="Switches" id="Kytkimet" name="Kytkimet" value="Kytkimet">
+                <label for="Kytkimet">Kytkimet</label>
+
+                <input type="checkbox" class="APs" id="Tukiasemat" name="Tukiasemat" value="Tukiasemat">
+                <label for="Tukiasemat">Tukiasemat</label>
+                
+                <br>
+
+                <input type="checkbox" class="Routers" id="Reitittimet" name="Reitittimet" value="Reitittimet">
+                <label for="Reitittimet">Reitittimet ja modeemit</label>
+
+                <input type="checkbox" class="Cables" id="Kaapelointi" name="Kaapelointi" value="Kaapelointi">
+                <label for="Kaapelointi">Kaapelointi</label>
+                
+            </form>
+        </div>
+
+        <!--Product listings-->
+        <div class="product-listings">
+            
+            <div class="products-racks">
+                <p><b>Palvelin rakit</b></p>
+                <hr><br>
+                <div class="product-background">
+                    <a href="#">
+                        <div class="product">
+                            <img src="../img/products/pimages/rack-1.png">
+                            <br><br>
+                            <p><b>Rack #1</b><br>500,00 €</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="product-background">
+                    <a href="#">
+                        <div class="product">
+                            <img src="../img/products/pimages/rack-1.png">
+                            <br><br>
+                            <p><b>Rack #2</b><br>799,99 €</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="product-background">
+                    <a href="#">
+                        <div class="product">
+                            <img src="../img/products/pimages/rack-1.png">
+                            <br><br>
+                            <p><b>Rack #3</b><br>1259,99 €</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="product-background">
+                    <a href="#">
+                        <div class="product">
+                            <img src="../img/products/pimages/rack-1.png">
+                            <br><br>
+                            <p><b>Rack #4</b><br>1599,00 €</p>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="products-security">
+                <p><b>Turvalaitteet</b></p>
+                <hr><br>
+                <div class="product-background">
+                    <a href="#">
+                        <div class="product">
+                            <img src="../img/products/pimages/firewall-1.png">
+                            <br><br>
+                            <p><b>Palo Alto PA-440</b><br>2500,99 €</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="product-background">
+                    <a href="#">
+                        <div class="product">
+                            <img src="../img/products/pimages/firewall-3.png">
+                            <br><br>
+                            <p><b>Fortinet FortiGate-1000D</b><br>3000,99 €</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="product-background">
+                    <a href="#">
+                        <div class="product">
+                            <img src="../img/products/pimages/firewall-3.png">
+                            <br><br>
+                            <p><b>Fortinet FortiGate-1000F</b><br>3500,99 €</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="products-switches">
+                <p><b>Kytkimet ja hubit</b></p>
+                <hr><br>
+                <div class="product-background">
+                    <a href="#">
+                        <div class="product">
+                            <img src="../img/products/pimages/switch-4.png">
+                            <br><br>
+                            <p><b>Switch #1</b><br>259,99 €</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="product-background">
+                    <a href="#">
+                        <div class="product">
+                            <img src="../img/products/pimages/switch-5.png">
+                            <br><br>
+                            <p><b>Switch #2</b><br>399,00 €</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="product-background">
+                    <a href="#">
+                        <div class="product">
+                            <img src="../img/products/pimages/switch-4.png">
+                            <br><br>
+                            <p><b>Switch #3</b><br>499,99 €</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="product-background">
+                    <a href="#">
+                        <div class="product">
+                            <img src="../img/products/pimages/switch-5.png">
+                            <br><br>
+                            <p><b>Switch #4</b><br>599,99 €</p>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="products-access-points">
+                <p><b>Tukiasemat</b></p>
+                <hr><br>
+                <div class="product-background">
+                    <a href="#">
+                        <div class="product">
+                            <img src="../img/products/pimages/ap-1.webp">
+                            <br><br>
+                            <p><b>Unifi AP AC-HD</b><br>129,00 €</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="product-background">
+                    <a href="#">
+                        <div class="product">
+                            <img src="../img/products/pimages/ap-2.webp">
+                            <br><br>
+                            <p><b>Unifi AP AC-Lite</b><br>159,00 €</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="products-routers">
+                <p><b>Reitittimet ja modeemit</b></p>
+                <hr><br>
+                <div class="product-background">
+                    <a href="#">
+                        <div class="product">
+                            <img src="../img/products/pimages/router-1.webp">
+                            <br><br>
+                            <p><b>Unifi dream router</b><br>299,99 €</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="product-background">
+                    <a href="#">
+                        <div class="product">
+                            <img src="../img/products/pimages/router-2.png">
+                            <br><br>
+                            <p><b>Cisco WAN-router</b><br>1519,95 €</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="products-cabling">
+                <p><b>Kaapelointi välineet</b></p>
+                <hr><br>
+                <div class="product-background">
+                    <a href="#">
+                        <div class="product">
+                            <img src="../img/products/pimages/cable-2.webp">
+                            <br><br>
+                            <p><b>0,5m kaapeli</b><br>15,99 €</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="product-background">
+                    <a href="#">
+                        <div class="product">
+                            <img src="../img/products/pimages/cable-2.webp">
+                            <br><br>
+                            <p><b>1,5m kaapeli</b><br>21,99 €</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="product-background">
+                    <a href="#">
+                        <div class="product">
+                            <img src="../img/products/pimages/cable-2.webp">
+                            <br><br>
+                            <p><b>2,0m kaapeli</b><br>28,99 €</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="product-background">
+                    <a href="#">
+                        <div class="product">
+                            <img src="../img/products/pimages/cable-2.webp">
+                            <br><br>
+                            <p><b>2,5m kaapeli</b><br>31,99 €</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="product-background">
+                    <a href="#">
+                        <div class="product">
+                            <img src="../img/products/pimages/cable-2.webp">
+                            <br><br>
+                            <p><b>3,0m kaapeli</b><br>39,99 €</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="product-background">
+                    <a href="#">
+                        <div class="product">
+                            <img src="../img/products/pimages/cable-2.webp">
+                            <br><br>
+                            <p><b>5,0m kaapeli</b><br>51,99 €</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="product-background">
+                    <a href="#">
+                        <div class="product">
+                            <img src="../img/products/pimages/cable-2.webp">
+                            <br><br>
+                            <p><b>5,5m kaapeli</b><br>59,99 €</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="product-background">
+                    <a href="#">
+                        <div class="product">
+                            <img src="../img/products/pimages/cable-2.webp">
+                            <br><br>
+                            <p><b>10,0m kaapeli</b><br>75,99 €</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <script>
+                /*Rack section*/
+                document.addEventListener("DOMContentLoaded", function() {
+                    const checkbox = document.querySelector('.Rakit');
+                    const elementToChange = document.querySelector('.products-racks');
+
+                    checkbox.addEventListener('change', function() {
+                        if (this.checked) {
+                            elementToChange.classList.remove('products-racks');
+                            elementToChange.classList.add('products-racks-active');
+                        } else {
+                            elementToChange.classList.remove('products-racks-active');
+                            elementToChange.classList.add('products-racks');
+                        }
+                    });
+                });
+
+                /*Security section*/
+                document.addEventListener("DOMContentLoaded", function() {
+                    const checkbox = document.querySelector('.Security');
+                    const elementToChange = document.querySelector('.products-security');
+
+                    checkbox.addEventListener('change', function() {
+                        if (this.checked) {
+                            elementToChange.classList.remove('products-security');
+                            elementToChange.classList.add('products-security-active');
+                        } else {
+                            elementToChange.classList.remove('products-security-active');
+                            elementToChange.classList.add('products-security');
+                        }
+                    });
+                });
+                
+                /*Switches section*/
+                document.addEventListener("DOMContentLoaded", function() {
+                    const checkbox = document.querySelector('.Switches');
+                    const elementToChange = document.querySelector('.products-switches');
+
+                    checkbox.addEventListener('change', function() {
+                        if (this.checked) {
+                            elementToChange.classList.remove('products-switches');
+                            elementToChange.classList.add('products-switches-active');
+                        } else {
+                            elementToChange.classList.remove('products-switches-active');
+                            elementToChange.classList.add('products-switches');
+                        }
+                    });
+                });
+
+                /*Access points section*/
+                document.addEventListener("DOMContentLoaded", function() {
+                    const checkbox = document.querySelector('.APs');
+                    const elementToChange = document.querySelector('.products-access-points');
+
+                    checkbox.addEventListener('change', function() {
+                        if (this.checked) {
+                            elementToChange.classList.remove('products-access-points');
+                            elementToChange.classList.add('products-access-points-active');
+                        } else {
+                            elementToChange.classList.remove('products-access-points-active');
+                            elementToChange.classList.add('products-access-points');
+                        }
+                    });
+                });
+
+                /*Routers section*/
+                document.addEventListener("DOMContentLoaded", function() {
+                    const checkbox = document.querySelector('.Routers');
+                    const elementToChange = document.querySelector('.products-routers');
+
+                    checkbox.addEventListener('change', function() {
+                        if (this.checked) {
+                            elementToChange.classList.remove('products-routers');
+                            elementToChange.classList.add('products-routers-active');
+                        } else {
+                            elementToChange.classList.remove('products-routers-active');
+                            elementToChange.classList.add('products-routers');
+                        }
+                    });
+                });
+
+                /*Cables section*/
+                document.addEventListener("DOMContentLoaded", function() {
+                    const checkbox = document.querySelector('.Cables');
+                    const elementToChange = document.querySelector('.products-cabling');
+
+                    checkbox.addEventListener('change', function() {
+                        if (this.checked) {
+                            elementToChange.classList.remove('products-cabling');
+                            elementToChange.classList.add('products-cabling-active');
+                        } else {
+                            elementToChange.classList.remove('products-cabling-active');
+                            elementToChange.classList.add('products-cabling');
+                        }
+                    });
+                });
+
+            </script>
+
+        </div>
+
+        <!--Divider line-->
+        <div class="divider">
+            <hr>
+        </div>
+
+        <!--Request product section-->
+        <div class="request-product">
+            <div class="form-container">
+                <form>
+                    <h6>Toivo tuotetta</h6>
+                    <input placeholder="Tuotteen nimi" type="text" id="request-item-name" name="request-item-name">
+                    <input placeholder="Tuotteen kategoria" type="text" id="request-item-type" name="request-item-type">
+                    <button type="submit" class="submit-button">Lähetä</button>
+                </form>
+            </div>
+        </div>
+
+        <!--Footer-->
+        <footer>
+            <div class="footer-col-1">
+                <p>
+                    <b>
+                        Fiix-IT
+                    </b>
+                    <br>
+                    <br>
+                    Aukioloajat:
+                    <br>
+                    <br>
+                    Ma | 09:00 - 18:00
+                    <br>
+                    Ti | 09:00 - 18:00
+                    <br>
+                    Ke | 09:00 - 18:00
+                    <br>
+                    To | 09:00 - 18:00
+                    <br>
+                    Pe | 09:00 - 18:00
+                    <br>
+                    La | 10:00 - 15:00
+                    <br>
+                    Su | Kiinni
+                </p>
+            </div>
+            <div class="footer-col-2">
+                <p>
+                    <br>
+                    <br>
+                    Yrityksen tiedot:
+                    <br>
+                    <br>
+                    Y-123456789
+                    <br>
+                    Suurlohjakatu 01
+                    <br>
+                    08100, Lohja
+                </p>
+                
+            </div>
+            <div class="footer-col-3">
+                <p>
+                    <br>
+                    <br>
+                    Yhteystiedot:
+                    <br>
+                    <br>
+                    Aleksi Hakkarainen, CEO
+                    <br>
+                    Puh. 012 345 6789
+                    <br>
+                    aleksi.hakkarainen@fiix-it.fi
+                </p>
+            </div>
+        </footer>
+
+        <!--Subfooter (copyright info)-->
+        <div class="sub-footer">
+            <p>
+                Copyright | Fiix-IT 2024
+            </p>
+        </div>
+
+    </body>
+</html>
