@@ -122,11 +122,12 @@ header {
             }
 
             .li-active {
+                background-color: #F72585;
+                color: white;
+                transition: .3s;
                 a {
-                    color: white !important;
-                    background-color: rgb(34, 34, 255) !important;
-                    padding: .5% !important;
-                    border-radius: 10px !important;
+                    color: white;
+                    text-decoration: underline;
                 }
             }
 

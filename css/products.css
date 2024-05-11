@@ -265,6 +265,7 @@
     padding: 5%;
 
     input {
+      padding: 1%;
       min-height: 5vh;
       width: 100%;
       margin: 1%;
