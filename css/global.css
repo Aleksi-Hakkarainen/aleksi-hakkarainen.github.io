@@ -1,10 +1,5 @@
 body {
 
-    display: flexbox;
-    justify-content: center;
-    align-items: center;
-    max-width: 1920px;
-
     font-family: "Oswald", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
