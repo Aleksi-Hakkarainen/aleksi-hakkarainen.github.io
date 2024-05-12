@@ -1,0 +1,16 @@
+.about-us {
+    margin: 5%;
+
+    .ceo-photo {
+        background-image: url("../img/ceo.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 96%;
+        width: 100%;
+        max-height: 400px;
+    }
+}
+
+.timeline {
+    margin: 5%;
+}
