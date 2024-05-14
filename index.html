@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--Links-->
+        <!--Css-->
+        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="css/global.css">
+        <link rel="stylesheet" href="css/header.css">
+        <link rel="stylesheet" href="css/footer.css">
+        <link rel="stylesheet" href="css/flickity.css">
+
+        <!--Bootstrap-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+        <!--Google custom font - Oswald-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+        <title>Fiix-IT</title>
+</head>
+    <body>
+        <!--Bootstrap JS script bundle and flickity-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <script src="flickity.pkgd.js"></script>
+
+        <!--Header-->
+        <header>
+            <div class="container">
+                <div class="row">
+                    <div class="col-4 nav-col-1">
+                    </div>
+                    <div class="col-4 nav-col-2">
+                        <img src="../img/fiix-it-logo-removebg-preview.png" alt="fiix-it_logo">
+                    </div>
+                    <div class="col-4 nav-col-3">
+                        <div class="burger">
+                            <!--Burger nav field-->
+                            
+                            <script>
+                                document.addEventListener('DOMContentLoaded', function() {
+                                // Select the element with the class "burger"
+                                var burgerElement = document.querySelector('.burger');
+                                var burgerMenuElement = document.querySelector('.burger-nav-menu');
+                                                            
+                                // Check if the element exists
+                                if (burgerElement) {
+                                    // Add click event listener to the burger element
+                                    burgerElement.addEventListener('click', function() {
+                                        // Toggle the class "burger-active"
+                                        burgerElement.classList.toggle('burger-active');
+                                        burgerMenuElement.classList.toggle('burger-nav-menu-active');
+                                    });
+                                }
+                            });
+                            </script>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        
+        <!--Navigation menu-->
+        <div class="burger-nav-menu hidden">
+            <ul>
+                <li class="li-active">
+                    <a href="index.html">Koti ></a>
+                </li>
+                <li>
+                    <a href="products.html">Verkkokauppa ></a>
+                </li>
+                <li>
+                    <a href="contact-form.html">Ota yhteyttä ></a>
+                </li>
+                <li>
+                    <a href="about-us.html">Meistä ></a>
+                </li>
+            </ul>
+        </div>   
+
+        <!--Herophoto section-->
+        <div class="herophoto">
+            <div class="herophoto-text">
+                <h2>Laadukkaita IT-palveluita,</h2>
+                <h2 class="blue-color">lähellä sinua!</h2>
+            </div>
+        </div>
+
+        <!--Review section-->
+        <div class="review-section">
+            <!--Hero-carousel product section-->
+            <div class="carousel-container">
+                <!-- Flickity HTML init -->
+                <div class="gallery js-flickity" data-flickity='{ "autoPlay": 3000 }'>
+                    <div class="gallery-cell">
+                        <h4>
+                            "Fiix-IT ratkaisi ongelmani nopeasti ja ammattitaitoisesti. Erinomainen palvelu!"
+                        </h4>
+                    </div>
+                    <div class="gallery-cell">
+                        <h4>
+                            "Kiitos Fiix-ITille nopeasta avusta. Ystävällinen asiakaspalvelu teki kokemuksesta miellyttävän."
+                        </h4>
+                    </div>
+                    <div class="gallery-cell">
+                        <h4>
+                            "Olen erittäin tyytyväinen Fiix-ITin palveluihin. Heidän tekninen osaamisensa ylitti odotukseni."
+                        </h4>
+                    </div>
+                    <div class="gallery-cell">
+                        <h4>
+                            "Fiix-IT auttoi yritystämme ratkaisemaan teknisiä haasteita tehokkaasti. Suosittelemme heitä lämpimästi."
+                        </h4>
+                    </div>
+                    <div class="gallery-cell">
+                        <h4>
+                            "Iso kiitos Fiix-ITin tiimille avusta! Heidän ammattitaitonsa ja palveluasenteensa ovat vertaansa vailla."
+                        </h4>
+                    </div>
+                    <div class="gallery-cell">
+                        <h4>
+                            "Fiix-IT tarjosi nopean ja luotettavan ratkaisun ongelmaamme. Olemme erittäin kiitollisia heidän avustaan."
+                        </h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Link section-->
+        <div class="links">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <a href="products.html" class="link-icon">
+                            <img src="../img/icons/cart4-inverted.svg" alt="nav-products">
+                            <h4 class="link-text">Verkkokauppa</h4>
+                        </a>
+                    </div>
+                    <div class="col-1"></div>
+                    <div class="col">
+                        <a href="contact-form.html" class="link-icon">
+                            <img src="../img/icons/telephone-inverted.svg" alt="nav-contact-form">
+                            <h4 class="link-text">Yhteydenotot</h4>
+                        </a>
+                    </div>
+                    <div class="col-1"></div>
+                    <div class="col">
+                        <a href="about-us.html" class="link-icon">
+                            <img src="../img/icons/book-inverted.svg" alt="nav-about-us">
+                            <h4 class="link-text">Meistä</h4>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Past projects-->
+        <div class="past-projects">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <a href="case-study-1.html" class="project-listing">
+                            <img src="../img/Opistoilmakuva_.jpg" alt="prev-project-kanneljarven-opisto">
+                            <br><br>
+                            <h3>Kanneljärven Opisto</h3>
+                            <p>Uusimme Kanneljärven Opiston verkkoinfran, lisäsimme verkkoon kahdentamisen, siirsimme Opiston AD-käyttäjähallinnan pilveen, sekä siirsimme tulostusratkaisun pilveen m-files tiedostoarkistoratkaisun kera.</p>
+                            <p><u>Lue aiheesta lisää ></u></p>
+                        </a>
+                    </div>
+                    <div class="col-1"></div>
+                    <div class="col">
+                        <a href="case-study-2.html" class="project-listing">
+                            <img src="../img/myk.jpg" alt="prev-project-myk">
+                            <br><br>
+                            <h3>Mäntynummen Yhtenäiskoulu</h3>
+                            <p>Toteutimme Mäntynummen Yhtenäiskoulun uuteen koulurakennukseen ICT-infran kokonaisuudessaan. Tämä sisälsi luontosaleja, luokkatiloja, taukotiloja, PA-järjestelmät ja ...</p>
+                            <p><u>Lue aiheesta lisää ></u></p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Contact form-->
+        <div class="contact">
+            <form>
+                <h4>Ota yhteyttä!</h4>
+                <div class="form-item-1">
+                    <input type="text" class="input-short" placeholder="Etunimi">
+                    <input type="text" class="input-short" placeholder="Sukunimi">
+                </div>
+
+                <div class="form-item-2">
+                    <input type="email" class="input-short" placeholder="Sähköposti">
+                    <input type="number" class="input-short" placeholder="Puhelinnumero">
+                </div>
+                <textarea class="input-long" placeholder="Lisätietoja"></textarea>
+                <br>
+                <button type="submit" class="submit-button">Lähetä</button>
+            </form>
+        </div>
+
+        <!--Footer-->
+        <footer>
+            <div class="footer-col-1">
+                <p>
+                    <b>
+                        Fiix-IT
+                    </b>
+                    <br>
+                    <br>
+                    Aukioloajat:
+                    <br>
+                    <br>
+                    Ma | 09:00 - 18:00
+                    <br>
+                    Ti | 09:00 - 18:00
+                    <br>
+                    Ke | 09:00 - 18:00
+                    <br>
+                    To | 09:00 - 18:00
+                    <br>
+                    Pe | 09:00 - 18:00
+                    <br>
+                    La | 10:00 - 15:00
+                    <br>
+                    Su | Kiinni
+                </p>
+            </div>
+            <div class="footer-col-2">
+                <p>
+                    <br>
+                    <br>
+                    Yrityksen tiedot:
+                    <br>
+                    <br>
+                    Y-123456789
+                    <br>
+                    Suurlohjakatu 01
+                    <br>
+                    08100, Lohja
+                </p>
+                
+            </div>
+            <div class="footer-col-3">
+                <p>
+                    <br>
+                    <br>
+                    Yhteystiedot:
+                    <br>
+                    <br>
+                    Aleksi Hakkarainen, CEO
+                    <br>
+                    Puh. 012 345 6789
+                    <br>
+                    aleksi.hakkarainen@fiix-it.fi
+                </p>
+            </div>
+        </footer>
+
+        <!--Subfooter (copyright info)-->
+        <div class="sub-footer">
+            <p>
+                Copyright | Fiix-IT 2024
+            </p>
+        </div>
+
+    </body>
+</html>
